@@ -28,9 +28,9 @@ function url_test( $url ) {
   curl_close( $ch );
 }
 $host="localhost";
-$user="z_Zak_STan";
-$pass="3Tm0^al3";
-$db="v2_zak";
+$user="";
+$pass="";
+$db="";
 $conn=mysqli_connect($host,$user,$pass,$db); 
 //executer une requite //
 $SQL = mysqli_query($conn,"SELECT * from urls");
