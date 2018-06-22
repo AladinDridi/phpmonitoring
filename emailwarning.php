@@ -39,7 +39,7 @@ $SQL = mysqli_query($conn,"SELECT * from urls");
        /* if différent du 400 > ou 500> #false */
 		if( !url_test( $row['url'] ) ) {
 			/* email de recevoir */
-$to = " contact@zakstan.com";
+$to = " email@email.fr";
 			/*titre du message */
 $subject = "url monitoring";
 /* message */
